@@ -38,13 +38,12 @@ document.addEventListener('DOMContentLoaded', function () {
     taskInput.value = '';
   }
 
-  // Event Listener for Add Button Click
-  addButton.addEventListener('click', addTask);
+  // Attach Event Listeners
+  addButton.addEventListener('click', addTask); // Add task on button click
 
-  // Event Listener for Enter Key Press in Input Field
   taskInput.addEventListener('keypress', function (event) {
     if (event.key === 'Enter') {
-      addTask();
+      addTask(); // Add task on Enter key press
     }
   });
 });
