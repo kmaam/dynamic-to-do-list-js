@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 350px;
+  border-radius: 10px;
+}
+#taskInput {
+  width: 70%;
+  padding: 8px;
+}
+#addTaskBtn {
+  padding: 8px 10px;
+  margin-left: 5px;
+}
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+li {
+  background: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+button.deleteBtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
